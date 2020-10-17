@@ -1,0 +1,166 @@
+body{
+  margin:0;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../images/3.jpg");
+
+  /* Set a specific height */
+  min-height:750px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.nav{
+  position: absolute;
+  top: 0;
+  right:7%;
+  display: inline-block;
+  padding: 5%;
+}
+.nav li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav a:hover{
+font-size: 20px;
+transition: 0.25s;
+}
+.heading {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 170px;
+  filter: brightness(300%);
+  font-family: 'Chilanka';
+  font-weight: bolder;
+}
+.cont1{
+  color: #fff;
+  position: relative;
+  top: 300px;
+text-align: center;
+padding-left: 7%;
+padding-right: 7%;
+}
+.icon{
+  color: #61f2f5;
+}
+.button{
+
+  text-align: center;
+  position: relative;
+  top: 500px;
+  filter: brightness(200%);
+}
+.option{
+  text-align: center;
+  padding: 7% 15%;
+}
+.col-op{
+  padding: 10% 20%;
+}
+.option-img{
+  width: 30%
+}
+.col-op p{
+  color: grey;
+}
+.col-op h2{
+  color: #373a40;}
+
+button{
+  border: 3px solid #6cc091;
+  background: none;
+  padding: 10px 20px;
+  text-align: center;
+  color: #6cc091;
+  cursor: pointer;
+}
+button:hover{
+  background-color:hsla(104, 73%, 87%, 0.164);
+  transition: 0.25s;
+}
+.contact-form{
+  background-color:#6cc091;
+  color: #fff;
+  padding: 7% 25%;
+
+}
+.contact-form input[type="text"],.contact-form textarea{
+border: 0;
+background: none;
+  border: 2px solid #ffffff;
+  outline: none;
+  padding: 14px 10px;
+  width: 90%;
+  border-radius: 15px;
+  transition: 0.25s;
+  margin: 25px;
+  align-items: left;
+  text-align:left;
+}
+#contact h3{
+  padding-bottom: 5%;
+  text-align: center;
+}
+.contact-form input[type="text"]:focus,.contact-form textarea:focus{
+    border: 2px solid #3aac6b;
+    border-radius: 15px;
+  transition: 0.25s;
+  text-align: left;
+  cursor: auto;
+  }
+label{
+  text-align:left;
+}
+.contact-form input[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  border: 3px solid #fff;
+  padding: 14px 10px;
+  width: 30%;
+  outline: none;
+  border-radius: 25px;
+  transition: 0.25s;
+  cursor: pointer;
+  color: #fff;
+}
+.contact-form input[type="submit"]:hover{
+  background-color: rgba(255, 255, 255, 0.301);
+  color: #fff;
+  font-weight: bold;
+}
+#footer{
+   padding-top: 10%;
+  text-align: center;
+  position: relative;
+  top: 20px;
+
+}
+.social-icon{
+  margin:20px 10px;
+}
+a{
+  color: #fff;
+}
+h2{
+  color: rgb(82, 79, 79);
+}
+#gallery{
+  padding: 7% 15%;
+  background-color: black;
+  height: 70%;
+  text-align: center;
+}
+.gal-img{
+  width: 70%;
+  margin: auto;
+}
